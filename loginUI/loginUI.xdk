@@ -5,13 +5,21 @@
       "projectTypeName": "com.intel.xdk.projecttype.webapp",
       "src": "webapp/template-login-view/sample.zip",
       "projectGuid": "437f8769-77c3-403d-ab5e-0c7d974bbd7b",
-      "lastModifiedDate": 1462144815905,
+      "lastModifiedDate": 1462145451935,
       "creationDate": 1462144815232
     },
     "sourceDirectory": "www",
     "cordovaPluginsDirectory": "plugins",
     "startFile": "index.html",
-    "projectFiles": {},
+    "projectFiles": {
+      "xdk-publish-meta-data.json": {
+        "settings": {
+          "project": {
+            "XDK-not-deployed": "True"
+          }
+        }
+      }
+    },
     "projectDirectories": {
       "www/xdk": {
         "settings": {
@@ -37,10 +45,11 @@
         "appName_": "loginUI",
         "appID_": "not.yet.specified",
         "appAccess_": {
-          "mode": "legacy",
+          "mode": "whitelist",
           "network": [],
           "intents": [],
-          "navigation": []
+          "navigation": [],
+          "properties": {}
         },
         "icons_": [],
         "splashes_": [],
@@ -61,10 +70,11 @@
         "appName_": "loginUI",
         "appID_": "not.yet.specified",
         "appAccess_": {
-          "mode": "legacy",
+          "mode": "whitelist",
           "network": [],
           "intents": [],
-          "navigation": []
+          "navigation": [],
+          "properties": {}
         },
         "icons_": [],
         "splashes_": [],
